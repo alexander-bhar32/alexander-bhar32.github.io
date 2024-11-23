@@ -21,6 +21,10 @@ a:hover {
     color: #0056a3;
 }
 
+img {
+    border: 5px solid #555;
+}
+
 /* Header and Navigation */
 #main-header {
     background: none; /* Remove background color from the main header */
