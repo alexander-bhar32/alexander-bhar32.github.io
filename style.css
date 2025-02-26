@@ -62,7 +62,7 @@ img {
             color: lightgray; /* Hover effect for links */
         }
 
-/* Welcome Section */
+/* Home Section */
 #home {
     text-align: center;
     padding: 50px 20px;
@@ -98,11 +98,21 @@ img {
 #projects, #skills {
     width: 664px;
     height: 743px;
-    padding: 30px; /* Recommendation made */
+    text-align: center;
     /*margin: 0 auto; - Centers the section */
 }
-    
 
+    #projects p1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    padding-left: 30;  /* Recommendation made */
+    }
+
+    #skills s1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    padding-left: 30;  /* Recommendation made */
+    }
 
 /* Footer */
 #main-footer {
