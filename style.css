@@ -72,7 +72,6 @@ img {
     #home h1 {
         font-size: 2.5em;
         margin-bottom: 20px;
-        padding-left: 30px; /* Issue related to padding, edited 2/26/25 */
     }
 
     #home p {
@@ -94,6 +93,14 @@ img {
         #home .btn:hover {
             background: red; /* Darker red background on hover */
         }
+
+/* Projects and Skills Section */
+#projects, #skills {
+    width: 664px;
+    height: 743px;
+    padding: 30px; /* Recommendation made */
+    /*margin: 0 auto; - Centers the section */
+}
     
 
 
