@@ -98,21 +98,21 @@ img {
 #projects, #skills {
     width: 664px;
     height: 743px;
-    text-align: center;
+    /*text-align: center; */
     /*margin: 0 auto; - Centers the section */
 }
 
     #projects p1 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    font-weight: 900; /* Extra bold/thick */
+    font-weight: 500; /* Lowered boldness */
     padding-left: 30;  /* Recommendation made */
     }
 
     #skills s1 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    font-weight: 900; /* Extra bold/thick */
+    font-weight: 900; /* Lowered boldness */
     padding-left: 30;  /* Recommendation made */
     }
 
