@@ -102,18 +102,46 @@ img {
     /*margin: 0 auto; - Centers the section */
 }
 
-    #projects p1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    font-weight: 500; /* Lowered boldness */
-    padding-left: 30;  /* Recommendation made */
+    /* Style for Projects Title */
+    #p1 {
+    font-size: 2.2em; /* Similar to h1 */
+    font-weight: 800; /* Bold & thick */
+    text-align: left; /* Aligns text to the left */
+    margin-left: 20px; /* Adds some spacing from the edge */
     }
 
-    #skills s1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    font-weight: 900; /* Lowered boldness */
-    padding-left: 30;  /* Recommendation made */
+    /* Style for Projects List */
+    #projects-section ul {
+    list-style-position: inside; /* Keeps bullets aligned properly */
+    text-align: left; /* Ensures text aligns left */
+    padding-left: 40px; /* Adds spacing from the edge */
+    }
+
+    /* Ensure the entire section is properly aligned */
+    #projects-section {
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Centers the section */
+    }
+
+    /* Style for Skill Sets Title */
+    #s1 {
+    font-size: 2.2em; /* Similar to h1 */
+    font-weight: 900; /* Bold & thick */
+    text-align: left; /* Aligns text to the left */
+    margin-left: 20px; /* Adds some spacing from the edge */
+    }
+
+    /* Style for Skill Sets List */
+    #skills-section ul {
+    list-style-position: inside; /* Keeps bullets aligned properly */
+    text-align: left; /* Ensures text aligns left */
+    padding-left: 40px; /* Adds spacing from the edge */
+    }
+
+    /* Ensure the entire section is properly aligned */
+    #skills-section {
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Centers the section */
     }
 
 /* Footer */
