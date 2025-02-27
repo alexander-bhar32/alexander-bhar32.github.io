@@ -118,6 +118,10 @@ img {
     width: 100%; /* Ensure the list takes full width */
 }
 
+#projects-section p {
+    white-space: nowrap;
+}
+
 #projects-section ul li {
     display: flex; /* Ensures items align properly */
     flex-direction: column;
