@@ -108,6 +108,10 @@ img {
     margin-left: 20px;
 }
 
+#projects-section p {
+    height: 726px;
+}
+
 /* Style for Projects List */
 #projects-section ul {
     list-style-position: inside;
